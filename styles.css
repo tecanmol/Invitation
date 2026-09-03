@@ -553,6 +553,10 @@ body.is-open .deck{ opacity:1; animation:arrive 1.1s var(--ease-out) backwards }
 
 /* ---------- card 3 — invitation & venue ---------- */
 .c--invite{ gap:calc(var(--gap) * .82) }
+.c--invite .note,
+.c--invite .prose{
+  text-align:center;
+}
 .c--invite .display{ font-size:clamp(22px, calc(var(--u) * .094), 42px) }
 .c--invite .prose{
   font-size:clamp(12.5px, calc(var(--u) * .0395), 15.5px);
